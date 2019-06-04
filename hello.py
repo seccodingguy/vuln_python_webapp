@@ -18,6 +18,8 @@ for o, a in myopts:
     else:
         print("Usage for changing the standard port from 5000: %s -p [port number]" % sys.argv[0])
 
+print("Port number is: ",PORT)
+
 #mysql = MySQL()
 app = Flask(__name__)
 app.secret_key = "my vulnerable app"
