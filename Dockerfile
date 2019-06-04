@@ -15,4 +15,4 @@ RUN tar -xvf python_website.tar.gz -C /app
 RUN rm python_website.tar.gz
 
 EXPOSE  8000
-CMD ["python", "/app/hello.py -p 8000"]
+CMD ["python", "/app/hello.py", "-p", "8000"]
